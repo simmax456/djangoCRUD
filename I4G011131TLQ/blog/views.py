@@ -5,7 +5,7 @@ from django.views.generic.edit import CreateView
 from django.views.generic.detail import DetailView
 from django.views.generic.edit import UpdateView
 from django.views.generic.edit import DeleteView
-from I4G011131TLQ.blog.models import Post
+from .models import Post
 
 # Create your views here.
 class PostListView(ListView):
